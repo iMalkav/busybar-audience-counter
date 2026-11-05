@@ -1,0 +1,54 @@
+{
+  "captured_at": "2026-11-05T13:51:20.442397+00:00",
+  "application": {
+    "format_version": 1,
+    "id": "app.imalkav.audience_counter",
+    "name": "Audience Counter",
+    "version": "0.1.0",
+    "api_version": "27.14.0",
+    "author": "iMalkav",
+    "description": "Keep your audience numbers in view.",
+    "heap_size_kib": 384,
+    "debug": false
+  },
+  "firmware": {
+    "version": "r1051",
+    "target": 21,
+    "branch": "dev",
+    "build_date": "2026-10-30",
+    "commit_hash": "6ee64ba1",
+    "intercom_version": "6ee64ba1",
+    "nwp_version": "1611.2.1.1.255.11.71",
+    "matter_version": "1.0"
+  },
+  "api_version": "27.15.0",
+  "method": "GET /api/screen?display=0 and display=1; base64 decoded and saved as PNG without resizing or retouching",
+  "settings": {
+    "version": 1,
+    "values": {
+      "source_url": "https://raw.githubusercontent.com/iMalkav/busybar-audience-counter/5ce0033a2c70483abcbf23e93e3c82608d1054d8/examples/response.json",
+      "token": "",
+      "refresh_s": 30
+    }
+  },
+  "inputs": [],
+  "data_note": "Example JSON data served from the public source repository; these are demonstration values, not a live third-party integration.",
+  "fixture": "examples/response.json",
+  "frames": [
+    {
+      "path": "screenshots/front.png",
+      "width": 72,
+      "height": 16,
+      "frame_sha256": "979f4cfdf0c3d205c39bd300da85a83f1bf42704d7f09de75caf3c40f32c6286",
+      "png_sha256": "9430d136de8f0b61daf5ea49a47c021d438385d613cb6b6c155d7569fe05f884"
+    },
+    {
+      "path": "screenshots/back.png",
+      "width": 160,
+      "height": 80,
+      "frame_sha256": "679435029dce07c86157a11fbdf7f6d197584c949c46b108ba59361d9eae0022",
+      "png_sha256": "75685ad72ad6eda4dc37b0343a20620baac8eb86e11ca5ec3570b82316dd6f16"
+    }
+  ],
+  "verification": "Installed, launched, captured both displays, then quit via the device API. This is not comprehensive physical-device testing or verification on the latest release firmware."
+}
