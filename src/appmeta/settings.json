@@ -1,0 +1,28 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "source_url": {
+      "type": "string",
+      "label": "Source URL",
+      "default": "",
+      "max_length": 255,
+      "sensitive": false
+    },
+    "token": {
+      "type": "string",
+      "label": "Access token",
+      "default": "",
+      "max_length": 255,
+      "sensitive": true
+    },
+    "refresh_s": {
+      "type": "integer",
+      "label": "Refresh (sec)",
+      "default": 30,
+      "min": 10,
+      "max": 3600,
+      "step": 1
+    }
+  }
+}

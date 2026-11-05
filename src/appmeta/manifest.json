@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "id": "app.imalkav.audience_counter",
+  "name": "Audience Counter",
+  "version": "0.1.0",
+  "api_version": "27.14.0",
+  "author": "iMalkav",
+  "description": "Keep your audience numbers in view.",
+  "heap_size_kib": 384,
+  "debug": false
+}
